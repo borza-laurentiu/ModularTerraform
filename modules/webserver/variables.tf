@@ -4,7 +4,7 @@ variable "ami_app" {
 }
 
 variable "type" {
-    type = "string"
+    type = string
     default = "t2.micro"
 }
 
